@@ -78,6 +78,8 @@ export default class Main extends Component{
         return (
             <NavigationContainer>
                 {/* 1.3 Stack Navigator객체 가 제어할 화면(컴포넌트) 배치 */}
+            
+                 // screenOptions={} 를 통해 한번에 옵션들을 적용하는 것이 가능함.
                 <Stack.Navigator>
                     {/* 화면 전환에 사용될 명칭 name속성과 컴포넌트 클래스 명인 component 속성 지정 */}
                     {/* <Stack.Screen name="Home" component={ HomeComponent }></Stack.Screen>
